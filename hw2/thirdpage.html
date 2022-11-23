@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		#Header{
+			background-color:goldenrod;
+			font-size: 25pt;
+			padding: 10px;
+			color:white;
+		}
+
+		.background{
+			background-color:khaki;
+			padding: 10px;
+			color:darkgoldenrod;
+			font-size: 15pt;
+		}
+
+		.title{
+			color: inherit;
+			font-size: 15pt;
+		}
+
+		p em{text-decoration: underline; 
+			font-size: 15pt;}
+		label, em{text-decoration: underline;}
+
+	</style>
+</head>
+<body>
+	<p id="Header">Feedback Form</p>
+	
+	<p><em>Please fill out this form to help us improve our site.</em></p>
+	
+	<p><label class="background" >Name:</label>
+	<input name = "name" type = "text" size = "25" maxlength = "10"></p>
+	
+	<p><label class="background">Comments:</label><br>
+	<textarea rows = "4" cols = "55" placeholder = "Enter comments here."></textarea></p>
+	
+	<p><label class="background">E-mail Adress:</label>
+	<input name = "email" type = "text" size = "25" maxlength = "70"></p>
+	
+	<p class="background" >Things you liked:</b>
+	<form>
+	<input type = "checkbox" name = "hobby" value = "Site design" checked > Swimming
+	<input type = "checkbox" name = "hobby" value = "Links" > Links
+	<input type = "checkbox" name = "hobby" value = "Ease of use" > Ease of use
+	<input type = "checkbox" name = "hobby" value = "Images" > Images
+	<input type = "checkbox" name = "hobby" value = "Source code" > Source code
+	</form></p>
+
+	<p class="background" >How did you get to our site?</p>
+	<form>
+	<input type = "radio" name = "gender" value = "Search engine" checked> Search engine
+	<input type = "radio" name = "gender" value = "Links from another site"> Links from another site
+	<input type = "radio" name = "gender" value = "Deitel.com Web site"> Deitel.com Web site
+	<input type = "radio" name = "gender" value = "Reference in a book"> Reference in a book
+	<input type = "radio" name = "gender" value = "Other"> Other
+	</form></p>
+
+	<p class="title" style=color:darkgoldenrod>Rate our site:
+	<select name = "adj">
+	<option value = "Amazing" selected > Amazing </option></p>
+	</select>
+
+	<p><img src = "quokka.jpg" alt = "dinotaeng" width="480" height="300" /></p>
+
+	<br><br>
+		<input type = "submit" value = "Submit"> 
+		<input type = "reset" value = "Clear"> 
+	</p>
+
+	<br><a href="file:///Users/chenqianying/Desktop/HTML_HW2/index.html">HomePage</a></br>
+	
+</body>
+</html>

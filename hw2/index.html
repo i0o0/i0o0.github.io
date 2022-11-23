@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		#Header{
+			color: darkgreen;
+			font-size: 20pt;
+			font-weight:bold;
+		}
+		.question{
+			font-weight:normal;
+			background-color:yellowgreen;
+			color: white;
+		}
+		.title{
+			color: white;
+			font-weight:bold;
+			background-color:darkgreen;
+		}
+
+		p em{border: 2px solid yellowgreen }
+		label em{text-decoration: underline; }
+	</style>
+</head>
+<body>
+	<table border = "1">
+		<thead>
+			<tr>
+				<th colspan = "3">
+					<p id="Header"><em>ABOUT-110303052</em></p>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th rowspan = "3">
+					<img src = "Unknown.jpeg" alt = "dinotaeng" width="120" height="90" />
+					<p class="title">my photo</p>
+				</th>
+				<td colspan = "2"><p>
+					<label class="question"><em>Name:</em></label>
+						<input name = "name" type = "text" size = "25" maxlength = "10">
+					</p><form><p>
+						<label class="question"><em>Gender:</em></label>
+						<input type = "radio" name = "gender" value = "male" checked> Male
+						<input type = "radio" name = "gender" value = "male"> Female
+						<input type = "radio" name = "gender" value = "other"> Other
+					</form>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<form>
+						<label class="question"><em>County:</em></label>
+						<select name = "county">
+							<option value = "Taipei" selected > Taipei </option>
+							<option value = "Taoyuan" > Taoyuan </option>
+							<option value = "Taipei" > Taichung </option>
+							<option value = "Taipei" > Tainan </option>
+						</select>
+					</form>
+				</td>
+				<td>
+					<form><p>
+						<label class="question"><em>Birthday:</em></label>
+						<input type = "date" value = "2002-10-29" min = "1992-1-1" max = "2022/12/31"> 
+					</p></form>
+				</td>	
+			</tr>
+			<tr>
+				<td colspan = "2"><p>
+					<label class="question"><em>E-mail:</em></label>
+						<input name = "email" type = "text" size = "25" maxlength = "70">
+				</p></td>
+			</tr>
+			<tr>
+				<th>
+					<p class="title">Hobby</p>
+				</th>
+				<td colspan = "2"><p>
+					<form>
+						<input type = "checkbox" name = "hobby" value = "Swimming" checked> Swimming
+						<input type = "checkbox" name = "hobby" value = "Volleyball" > Volleyball
+						<input type = "checkbox" name = "hobby" value = "Movie" > Movie
+						<input type = "checkbox" name = "hobby" value = "Game" > Game
+						<input type = "checkbox" name = "hobby" value = "Sleep" > Sleep
+					</form>
+				</p></td>
+			</tr>
+			<tr>
+				<th>
+					<p class="title">Skill</p>
+				</th>
+				<td colspan = "2"><p>
+					<form>
+						<input type = "checkbox" name = "skill" value = "Java" checked> Java
+						<input type = "checkbox" name = "hobby" value = "HTML" > HTML
+						<input type = "checkbox" name = "hobby" value = "Python" > Python
+						<input type = "checkbox" name = "hobby" value = "Microsoft Office" > Microsoft Office
+						<input type = "checkbox" name = "hobby" value = "Premiere" > Premiere
+					</form>
+				</p></td>
+			</tr>
+			<tr>
+				<th>
+					<p class="title">Say Something</p>
+				</th>
+				<td colspan = "2"><p>
+					<textarea rows = "4" cols = "55" placeholder = "Say Something Here!">
+					</textarea>
+				</p></td>
+			</tr>
+			<tr>
+				<td colspan = "3" >
+					<input type = "submit" value = "Submit"> 
+					<input type = "reset" value = "Clear"> 
+				</td>
+			</tr>
+		</tbody>
+
+	</table>
+
+<br><a href="file:///Users/chenqianying/Desktop/HTML_HW2/thirdpage.html">Feedback Form</a></br>
+<br><a href="file:///Users/chenqianying/Desktop/HTML_HW2/secondpage.html">INFORMATION</a></br>
+
+</body>
+</html>
