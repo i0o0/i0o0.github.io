@@ -1,0 +1,56 @@
+body{
+	padding:5%;
+	font-family:arial, sans-serif;
+	color:navy;
+	font-size: 10pt;
+	background-color:LightSteelBlue;
+}
+
+
+
+.divleft {
+	float: left;
+	padding:5%;}
+
+
+.label{
+	padding:5%;
+	font-family:arial, sans-serif;
+	color:navy;
+	font-size: 15pt;
+}
+
+
+.labelRight{
+	margin-right:auto;
+	padding:5%;
+	font-family:arial, sans-serif;
+	color:navy;
+	font-size: 15pt;
+}
+
+
+
+.labelLeft{
+	margin-left:auto;
+	padding:5%;
+	font-family:arial, sans-serif;
+	color:navy;
+	font-size: 15pt;
+}
+
+.input{
+	margin:0 0 5% 5%;
+	padding:2%;
+}
+
+
+.inputRight{
+	margin-right:auto;
+	margin:0 0 0.1% 0.1%;
+	padding:2%;
+}
+
+.pic{
+	padding:3%;}
+
