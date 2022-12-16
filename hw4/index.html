@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+<script>
+	var answer = Math.floor((Math.random()*10) + 1);
+	while (true){
+		var input = parseInt(window.prompt("Guess a number between 1 ~ 10!")); 
+
+		if(input != answer){
+			alert("Your answer is wrong, try again!")
+		}
+		else if (input == answer){
+			alert("Your answer is right!")
+			break;
+		}
+
+	}
+</script>
+
+</body>
+</html>
