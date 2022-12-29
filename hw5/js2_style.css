@@ -1,0 +1,46 @@
+body{
+	background-color:LightSteelBlue;
+}
+
+.headlabel{
+	display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding:5px 15px;
+}
+
+
+.label{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.input{
+    border:2px black solid;
+    border-radius: 5px;
+    padding:5px 15px;
+    margin:0 auto;
+    display:block;
+    width: 200px;
+}
+
+.select{
+	margin:0 auto;
+    display:block;
+    width: 235px;
+    height: 30px;
+	border-radius: 4px;
+}
+
+.button{
+    border-radius: 28;
+    cursor: pointer;
+    padding:5px 15px;
+    border:2px black solid;
+	cursor:pointer;
+	border-radius: 5px;
+	margin:0 auto;
+    display:block;
+    width: 100px;
+}
