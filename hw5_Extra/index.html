@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="js2_style.css">
+	<title></title>
+</head>
+<body>
+
+	 <p id="indexOfId"></p>
+	 <p id="lastIndexOfId"></p>
+	 <p id="indexOfId2"></p>
+
+	<script>
+		var inputStce = window.prompt("Input Data");
+		var inputChar = window.prompt("Input a Char to Search");
+		document.getElementById('indexOfId').textContent = inputStce.indexOf(inputChar); 
+		document.getElementById('lastIndexOfId').textContent = inputStce.lastIndexOf(inputChar);
+		document.getElementById('indexOfId2').textContent = inputStce.indexOf(inputChar, 3); 
+
+	</script>
+
+
+
+</body>
+</html>
